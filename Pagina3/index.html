@@ -1,0 +1,39 @@
+<!--
+    
+Exercício 5: Pesquisa de Satisfação
+Crie um formulário de pesquisa de satisfação com perguntas sobre a experiência do
+usuário. Inclua tipos de entrada diferentes, como caixas de seleção e botões de rádio.
+
+ -->
+
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+ 
+     <link rel="stylesheet" href="style.css">
+ 
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Pesquisa de Satisfação</title>
+ </head>
+ <body>
+     <form>
+         <h2>Nos diga como foi a sua experiência com a nossa pagina.</h2>
+         <div>
+             <input type="checkbox" name="muitoBom"> <label for="muitoBom">Muito bom</label>
+             <input type="checkbox" name="bom"> <label for="bom">Bom</label>
+             <input type="checkbox" name="razoavel"> <label for="razoavel">Razoável</label>
+             <input type="checkbox" name="ruim"> <label for="ruim">Ruim</label>
+             <input type="checkbox" name="muitoRuim"> <label for="muitoRuim">Muito ruim</label>
+         </div>
+         <div>
+             <div id="label"><label  for="mensagem">Nos conte como foi sua experiência:</label></div>
+             <div><textarea name="mensagem" id="mensagem" ></textarea></div>
+         </div>
+         <div>
+             <a href="/index.html"><button type="button" class="button">Cancelar</button></a>
+             <a href="/index.html"><button type="button" class="button">Enviar</button></a>
+          </div>
+     </form>
+ </body>
+ </html>
