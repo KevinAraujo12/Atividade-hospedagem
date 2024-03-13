@@ -18,6 +18,9 @@ body {
     background-color: rgba(179, 179, 179, 0.425);
     font-family: arial;
 }
+label{
+    margin-right: 20px;
+}
 h2 {
     color: green;
 }
